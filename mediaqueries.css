@@ -1,0 +1,59 @@
+@media (max-width: 1000px){
+    .navbar{
+        gap: 10px;
+      }
+      header{
+        gap: 10px;
+      }
+
+      .navbar-list{
+        position: absolute;
+        top: 140px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        border-top: 0px;
+        border-radius: 0px 0px 15px 15px;
+        align-items: center;
+        
+       
+        z-index: 2;
+         display: none; 
+      }
+      .foto-perro{
+        display: none;
+      }
+
+     .presentacion{
+        margin-top: 280px;
+        align-items: center;
+     }
+
+     .imagen-veneficios{
+        display: none;
+     }
+
+     .logo-header{
+        padding-bottom: 20px;
+     }
+
+     .menu-label{
+        height: 30px;
+        display: flex;
+        cursor: pointer;
+        
+     }
+
+     #menu-carrito:checked + .navbar-list{
+        display: flex;
+     }
+     .footer-contenedor{
+        flex-direction: column;
+     }
+
+     .contenedor-productos{
+        flex-direction: column;
+     }
+
+    }
