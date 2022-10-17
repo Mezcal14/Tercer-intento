@@ -418,3 +418,8 @@ span {
 .volver a {
   color: var(--nav);
 }
+
+#mail,
+#name{
+  color: var(--text-nav);
+}
